@@ -150,3 +150,14 @@ if (isset($_GET['force-subsite'])) {
  * Uncomment this string for all subsites.
  */
 // $settings['is_subsite'] = TRUE;
+$databases['default']['default'] = array (
+  'database' => 'template',
+  'username' => 'template',
+  'password' => 'template',
+  'prefix' => '',
+  'host' => 'database',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);
+$settings['hash_salt'] = 'Yf0Ijpuaahwa7EIBRmbtgbCAZaRckGuE2xxhAl64ewvzYYcbJGhQ1U1lQKfkylQCUOYenc__Gg';
